@@ -11,10 +11,10 @@ import com.study.spring.member.entity.Member;
 import com.study.spring.member.entity.MemberRole;
 import com.study.spring.member.repoository.MemberRepository;
 
-import lombok.extern.log4j.Log4j2;
+// import lombok.extern.log4j.Log4j2;
 
 @SpringBootTest
-@Log4j2
+// @Log4j2
 public class MemberRepositoryTest {
 
 	@Autowired
