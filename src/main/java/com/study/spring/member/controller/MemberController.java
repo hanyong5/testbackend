@@ -37,4 +37,9 @@ public class MemberController {
             	        "message", "JWT 인증 통과 완료!"
             	    );
     }
+
+		@GetMapping("/api/member")
+    public String view(){
+			return "잘보이네요";
+		}
 }
