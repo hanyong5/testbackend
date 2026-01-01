@@ -38,7 +38,7 @@ public class MemberController {
             	    );
     }
 
-		@GetMapping("/api/member")
+		@GetMapping("/api/member/login/test")
     public String view(){
 			return "잘보이네요";
 		}
