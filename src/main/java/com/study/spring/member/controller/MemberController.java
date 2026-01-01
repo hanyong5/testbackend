@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class MemberController {
 
 	@Operation(
-		summary = "내 정보", 
-		description = "내 프로필을 조회합니다.",
+		summary = "내 정보!!!", 
+		description = "내 프로필을 조회합니다.!!!!",
 		security = @SecurityRequirement(name = "Bearer Authentication")
 	)
 	@GetMapping("/api/user/info")
